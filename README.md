@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/83e283a1-e8bc-44a0-8deb-db5f1657aaf4
 
 ---
 
-### Liceense
+### License
 
 This software is licensed under [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.txt)
 
