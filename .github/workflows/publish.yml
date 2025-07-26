@@ -99,7 +99,7 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        files: build\windows
+        files: build/macos
 
   build-linux:
     runs-on: ubuntu-latest
@@ -145,4 +145,4 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        files: build\windows
+        files: build/linux
