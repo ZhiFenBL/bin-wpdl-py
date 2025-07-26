@@ -128,22 +128,27 @@ jobs:
         if-no-files-found: error
         compression-level: 9
         
-# STAGE 2: Create a single release with the zipped artifacts
-# -----------------------------------------------------------
   release:
     runs-on: ubuntu-latest
     needs: [build-windows, build-macos, build-linux]
     steps:
-      - name: Download all artifacts
+      - name: Download all extracted artifacts
         uses: actions/download-artifact@v4
         with:
-          path: artifacts 
+          path: artifacts
 
-      - name: Display structure of downloaded files
+      - name: Re-zip artifacts with tag name
+        run: |
+          cd artifacts
+          zip -r windows-build-${GITHUB_REF##*/}.zip windows-build
+          zip -r macos-build-arm64-${GITHUB_REF##*/}.zip macos-build-arm64
+          zip -r linux-build-${GITHUB_REF##*/}.zip linux-build
+    
+      - name: Display final file structure
         run: ls -R artifacts
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          # This glob pattern uploads all .zip files from the artifacts directory
+          # This pattern still works perfectly to find all the renamed .zip files
           files: artifacts/*.zip
