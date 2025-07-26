@@ -7,7 +7,7 @@
 <p align="center">
   Binary distributions for <a href="https://github.com/ZhiFenBL/wpdl-py-cross">wpdl-cross-py</a>
   <br/><br/>
-  Cross platform gui application for <a href="https://github.com/AaronBenDaniel">AaronBenDaniel</a>'s, <a href="https://github.com/AaronBenDaniel">desktop application</a> based on <a href="https://github.com/TheOnlyWayUp">AaronBenDaniel</a>'s <a href="https://github.com/AaronBenDaniel">downloader web application.</a>
+  Cross platform gui application for <a href="https://github.com/AaronBenDaniel">AaronBenDaniel</a>'s, <a href="https://github.com/AaronBenDaniel">desktop application</a> based on <a href="https://github.com/TheOnlyWayUp">TheOnlyWayUp</a>'s <a href="https://github.com/AaronBenDaniel">downloader web application.</a>
   <br/><br/>
 </p>
 <br/>
@@ -29,3 +29,27 @@
     No installation is required, just extract the zip archive with your favourite utility software, and you'll find executable file inside.
 
 ---
+
+### Example Download
+
+https://github.com/user-attachments/assets/83e283a1-e8bc-44a0-8deb-db5f1657aaf4
+
+---
+
+### Liceense
+
+This software is licensed under [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.txt)
+
+---
+
+### Acknowledgements
+
+This project was inspired by or built upon the work of the following repositories:
+
+* [AaronBenDaniel/Wattpad_Downloader](https://github.com/AaronBenDaniel/Wattpad_Downloader)
+* [TheOnlyWayUp/WattpadDownloader](https://github.com/TheOnlyWayUp/WattpadDownloader)
+
+---
+
+<p align="center">2025 ZhiFenBL. <a href="https://www.gnu.org/licenses/agpl-3.0.txt">Licensed Under AGPL 3.0</a> </p>
+
