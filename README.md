@@ -21,11 +21,7 @@
   - ### Download
     You can download the latest distribution of the application [here](https://github.com/ZhiFenBL/bin-wpdl-py/releases/latest). You can download either one matches your device. Note that windows, and linux binaries are x86_64 (64 bit), and MacOS binaries are arm64 arch.
 
-<br/>
+  - ### Install
+    No installation is required, just extract the zip archive with your favourite utility software, and you'll find executable file inside.
 
 ---
-
-<br/>
-
-## Install
-  - No installation is required, just extract the zip archive with your favourite utility software, and you'll find executable file inside.
